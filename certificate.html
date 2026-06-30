@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Trang xem chứng chỉ PDF của Nguyễn Doãn Đạt." />
+    <title>Certificate Viewer | Nguyễn Doãn Đạt</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="viewer-body">
+    <header class="viewer-header">
+      <a class="brand" href="index.html#certificates" aria-label="Quay lại portfolio">Đạt</a>
+      <div>
+        <p class="eyebrow">Certificate Viewer</p>
+        <h1 id="viewer-title">Chứng chỉ</h1>
+      </div>
+      <a id="download-link" class="button primary" href="index.html#certificates">Tải PDF</a>
+    </header>
+    <main class="viewer-shell">
+      <p id="viewer-status" class="viewer-status">Đang tải PDF...</p>
+      <iframe id="pdf-frame" class="pdf-frame" title="Certificate PDF"></iframe>
+    </main>
+    <script src="assets/js/certificate-viewer.js" defer></script>
+  </body>
+</html>
